@@ -4,7 +4,7 @@ const config: Config = {
   bail: 3,
   clearMocks: true,
   coverageProvider: "v8",
-  moduleFileExtensions: ["ts"],
+  moduleFileExtensions: ["ts", "js"],
   moduleNameMapper: {
     "^src/(.*)$": "<rootDir>/src/$1",
   },
